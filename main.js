@@ -30,7 +30,7 @@ let n = prompt(m)
 console.log("Misol-6: " + "("+m+")" + " = " + n);
 
 let o = "11 + 1"
-let p = prompt(0)
+let p = prompt(o)
 console.log("Misol-7: " + "("+o+")" + " = " + p);
 
 let q = " 3 / 4 "
