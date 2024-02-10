@@ -1,12 +1,12 @@
 
-let a = prompt( "ismingiz nima")
-console.log( "sizning ismingiz: " + a );
+let userName = prompt( "ismingiz nima")
+console.log( "sizning ismingiz: " + userName );
 
-let b = prompt( a + " Yoshingiz nechida?")
-console.log( a + " Yoshingiz " + b );
+let userAge = prompt( a + " Yoshingiz nechida?")
+console.log( userName + " Yoshingiz " + userAge );
 
 let c = "6 + 6"
-let d = prompt( a + " misollarni yechishga harakat qiling: " + c )
+let d = prompt( userName + " misollarni yechishga harakat qiling: " + c )
 console.log( "Misol-1: " + "("+c+")" + " = " + d );
 
 let e ="7 * 7"
@@ -21,5 +21,18 @@ let i = "10 / 7"
 let g = prompt (i)
 console.log("Misol-4: " + "("+i+")" + " = " + g );
 
-let k = "javobingizni CONSOLEdan korishingiz mumkun"
-alert(k)
+let k ="11 / 1"
+let l = prompt (k)
+console.log("Misol-5: " + "("+k+")" + " = " + l);
+
+let m = "47 * 5"
+let n = prompt(m)
+console.log("Misol-6: " + "("+m+")" + " = " + n);
+
+let o = "11 + 1"
+let p = prompt(0)
+console.log("Misol-7: " + "("+o+")" + " = " + p);
+
+let q = " 3 / 4 "
+let r = prompt(q)
+console.log("Misol-8: " + "("+q+")" + " = " + r);
