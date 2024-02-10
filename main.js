@@ -2,7 +2,7 @@
 let userName = prompt( "ismingiz nima")
 console.log( "sizning ismingiz: " + userName );
 
-let userAge = prompt( a + " Yoshingiz nechida?")
+let userAge = prompt( userName + " Yoshingiz nechida?")
 console.log( userName + " Yoshingiz " + userAge );
 
 let c = "6 + 6"
